@@ -1,7 +1,7 @@
 {
     "useSideMenu": true,
     "lineBreaks": "gfm",
-    "additionalFooterText": "abc",
-    "anchorCharacter": "&para;",
-    "title": "My Shiny New MDwiki"
+    "additionalFooterText": "All content and images &copy; by John Doe",
+    "anchorCharacter": "#",
+    "title": "tech note"
 }
