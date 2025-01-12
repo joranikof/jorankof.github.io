@@ -1,0 +1,28 @@
+/* Move the navigation menu to the left */
+#md-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px; /* Adjust the width as needed */
+    height: 100%;
+    overflow-y: auto;
+    background-color: #f8f8f8; /* Optional: Set a background color */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+}
+
+/* Adjust content to make room for the menu */
+#md-content {
+    margin-left: 250px; /* Same as the width of the menu */
+}
+
+/* Optional: Style the menu links */
+#md-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+#md-menu a:hover {
+    background-color: #e0e0e0;
+}
